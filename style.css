@@ -1,0 +1,90 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.item{
+    box-shadow: 0px 0px 3px 0px rgba(red, green, blue, alpha)
+    padding: 20px;
+    border-radius: 2px;
+}
+
+#satu > h3,#satu p {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    padding: 0;
+}
+
+#satu > h3 {
+    padding: 10px;
+}
+[class^="gambar"]{
+    box-shadow; overscroll-behavior-block: black;
+    width: 100px;
+    height: 80px;
+    float: right;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:center;
+    border-radius: 5px;
+}
+@media screen and (max-width : 768px) {
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+    } 
+}
+    .gambar-1{
+        background-image: url(https://1.bp.blogspot.com/-g_vGoVHAdrk/Ux7VfyD6gcI/AAAAAAAAABs/QZgcVFMYDLA/s1600/Bunga-Kamboja.jpg);
+        width: 100%;
+        float: none;
+        border-radius: 0%;
+    }
+    
+    .gambar-2{
+        background-image: url(https://1.bp.blogspot.com/-g_vGoVHAdrk/Ux7VfyD6gcI/AAAAAAAAABs/QZgcVFMYDLA/s1600/Bunga-Kamboja.jpg);
+        width: 100%;
+        float: none;
+        border-radius: 0%;
+    }
+
+    .gambar-3{
+        background-image: url(https://1.bp.blogspot.com/-g_vGoVHAdrk/Ux7VfyD6gcI/AAAAAAAAABs/QZgcVFMYDLA/s1600/Bunga-Kamboja.jpg);
+        width: 100%;
+        float: none;
+        border-radius: 0%;
+    }
+
+    .gambar-4{
+        background-image: url(https://1.bp.blogspot.com/-g_vGoVHAdrk/Ux7VfyD6gcI/AAAAAAAAABs/QZgcVFMYDLA/s1600/Bunga-Kamboja.jpg);
+        width: 100%;
+        float: none;
+        border-radius: 0%;
+    }
+
+    .gambar-5{
+        background-image: url(https://1.bp.blogspot.com/-g_vGoVHAdrk/Ux7VfyD6gcI/AAAAAAAAABs/QZgcVFMYDLA/s1600/Bunga-Kamboja.jpg);
+        width: 100%;
+        float: none;
+        border-radius: 0%;
+    }
+
+    .gambar-6{
+        background-image: url(https://1.bp.blogspot.com/-g_vGoVHAdrk/Ux7VfyD6gcI/AAAAAAAAABs/QZgcVFMYDLA/s1600/Bunga-Kamboja.jpg);
+        width: 100%;
+        float: none;
+        border-radius: 0%;
+    }
+
+    .gambar-7{
+        background-image: url(https://1.bp.blogspot.com/-g_vGoVHAdrk/Ux7VfyD6gcI/AAAAAAAAABs/QZgcVFMYDLA/s1600/Bunga-Kamboja.jpg);
+        width: 100%;
+        float: none;
+        border-radius: 0%;
+    }
+
