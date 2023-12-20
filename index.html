@@ -1,57 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"1 content="widthdevice-width,initial-scale=1.0">
-        <title>Document</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="style">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="container">
-        <div class="item" id="satu">
-        <div class="gambar-1"></div>
-        <h3>judul</h3>
-        <p>ini deskripsi</p>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil CV</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding-top: 60px;
+    }
+    .jumbotron {
+      background-color: #007bff;
+      color: white;
+      padding: 80px 30px;
+    }
+  </style>
+</head>
+<body>
 
-        <div class="item">
-        <div class="gambar-2"></div>
-        <h3>Judul</h3>
-        <p>Ini deskripsi</p>
-        </div>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Profil CV</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Tentang Saya</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Pengalaman Kerja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Pendidikan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-        <div class="item">
-        <div class="gambar-3"></div>
-        <h3>Judul</h3>
-        <p>Ini deskripsi</p>
-        </div>
+  <!-- Header -->
+  <div class="jumbotron text-center">
+    <h1>Selamat Datang!</h1>
+    <p>Ini adalah Profil CV Saya</p>
+  </div>
 
-        <div class="item">
-        <div class="gambar-4"></div>
-        <h3>Judul</h3>
-        <p>Ini deskripsi</p>
-        </div>
+  <!-- Tentang Saya -->
+  <section id="about" class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Tentang Saya</h2>
+        <p>Saya Roudhatul Jannah mahasiswi prodi Bisinis Digital di kampus Politeknik PGRI Banten. Saya mahasiswi angkatan tahun 2022. Saat ini saya sedang menempuh pendididkan jenjang S1. Pada akhir tahun 2023 ini saya memasuki tahap semester 4. Saya berstatus belum menikah, saya memiliki sikap profesionalisme yang tinggi, bertanggung jawab, disiplin waktu, bekerja keras serta dapat bekerja dengan tim.</p>
+      </div>
+    </div>
+  </section>
 
-        <div class="item">
-        <div class="gambar-5"></div>
-        <h3>Judul</h3>
-        <p>Ini deskripsi</p>
+  <!-- Pengalaman Kerja -->
+  <section id="experience" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Pengalaman Kerja</h2>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Konter Naura Cellular</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Karyawati</h6>
+              <p class="card-text">Sejak 18 September 2021 - 18 September 2022.</p>
+            </div>
+          </div>
+          <!-- Tambahkan lebih banyak kartu pengalaman kerja jika diperlukan -->
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="item">
-        <div class="gambar-6"></div>
-        <h3>Judul</h3>
-        <p>Ini deskripsi</p>
+  <!-- Pendidikan -->
+  <section id="education">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Pendidikan</h2>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">MAN 1 Kota Cilegon</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Jurusan MIPA</h6>
+              <p class="card-text">2018-2021.</p>
+            </div>
+          </div>
+          <!-- Tambahkan lebih banyak kartu pendidikan jika diperlukan -->
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="item">
-        <div class="gambar-7"></div>
-        <h3>Judul</h3>
-        <p>Ini deskripsi</p>
+  <!-- Kontak -->
+  <section id="contact" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Kontak</h2>
+          <p>Nama: Roudhatul Jannah<br>
+          Email: roudhatulannah1@gmail.com<br>
+          Telepon: 0819-0626-0485</p>
         </div>
-        
-    </body>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
