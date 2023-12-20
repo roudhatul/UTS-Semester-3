@@ -8,38 +8,113 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <!-- Custom CSS -->
   <style>
-    /* tambahkan gaya kustom di sini */
     body {
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
+      padding-top: 60px;
     }
     .jumbotron {
       background-color: #007bff;
       color: white;
+      padding: 80px 30px;
     }
   </style>
 </head>
 <body>
 
-  <div class="jumbotron text-center">
-    <h1>Selamat Datang!</h1>
-    <p>Roudhatul Jannah</p>
-  </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h2>Tentang Saya</h2>
-        <p>Ini adalah bagian di mana Anda dapat menambahkan deskripsi singkat tentang diri Anda, keterampilan, dan minat Anda.</p>
-      </div>
-      <div class="col-md-6">
-        <h2>Kontak</h2>
-        <p>Nama: John Doe<br>
-        Email: johndoe@example.com<br>
-        Telepon: 123-456-7890</p>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Profil CV</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Tentang Saya</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Pengalaman Kerja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Pendidikan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Kontak</a>
+          </li>
+        </ul>
       </div>
     </div>
+  </nav>
+
+  <!-- Header -->
+  <div class="jumbotron text-center">
+    <h1>Selamat Datang!</h1>
+    <p>Ini adalah Profil CV Saya</p>
   </div>
+
+  <!-- Tentang Saya -->
+  <section id="about" class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Tentang Saya</h2>
+        <p>Saya Roudhatul Jannah mahasiswi prodi Bisinis Digital di kampus Politeknik PGRI Banten. Saya mahasiswi angkatan tahun 2022. Saat ini saya sedang menempuh pendididkan jenjang S1. Pada akhir tahun 2023 ini saya memasuki tahap semester 4. Saya berstatus belum menikah, saya memiliki sikap profesionalisme yang tinggi, bertanggung jawab, disiplin waktu, bekerja keras serta dapat bekerja dengan tim.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pengalaman Kerja -->
+  <section id="experience" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Pengalaman Kerja</h2>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Konter Naura Cellular</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Karyawati</h6>
+              <p class="card-text">Sejak 18 September 2021 - 18 September 2022.</p>
+            </div>
+          </div>
+          <!-- Tambahkan lebih banyak kartu pengalaman kerja jika diperlukan -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pendidikan -->
+  <section id="education">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Pendidikan</h2>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">MAN 1 Kota Cilegon</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Jurusan MIPA</h6>
+              <p class="card-text">2018-2021.</p>
+            </div>
+          </div>
+          <!-- Tambahkan lebih banyak kartu pendidikan jika diperlukan -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="contact" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Kontak</h2>
+          <p>Nama: Roudhatul Jannah<br>
+          Email: roudhatulannah1@gmail.com<br>
+          Telepon: 0819-0626-0485</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
